@@ -105,3 +105,7 @@ To run the web service locally:
 - Install dependencies: pip install -r requirements.txt
 - Navigate to the web_service folder.
 - Run the app: python app.py
+
+---
+## 6.License
+Distributed under the MIT License. Author: Sarishti Roll Number: 102317212
