@@ -42,12 +42,15 @@ The project provides two interfaces:
 
 ---
 
-### 🔹 Command Line Interface (CLI)
+## 🔹 Command Line Interface (CLI)
 
-Run directly from terminal:
+You can run the package directly from terminal:
 
 ```bash
 topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
+```
+
+---
 
 ## 🔹 Web Service (Flask Based)
 
@@ -97,6 +100,8 @@ Example ranking output:
 ## 5. Local Setup
 
 ### Install dependencies
+To run the web service locally:
 
-```bash
-pip install -r requirements.txt
+- Install dependencies: pip install -r requirements.txt
+- Navigate to the web_service folder.
+- Run the app: python app.py
