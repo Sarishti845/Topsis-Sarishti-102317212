@@ -48,3 +48,55 @@ Run directly from terminal:
 
 ```bash
 topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
+
+## 🔹 Web Service (Flask Based)
+
+A modern web interface built using **Flask** that allows users to upload CSV files, enter weights and impacts, and receive the processed TOPSIS result via email.
+
+---
+
+### Step 1 — Homepage
+
+Upload CSV file and enter weights, impacts, and email address.
+
+<img src="homepage.jpeg" width="700"/>
+
+---
+
+### Step 2 — Form Filled
+
+The system validates inputs and processes the TOPSIS algorithm.
+
+<img src="form_filled.jpeg" width="700"/>
+
+---
+
+### Step 3 — Success Message
+
+After successful processing:
+
+- Confirmation message is displayed  
+- Result file is sent to the provided email  
+
+<img src="success_msg.jpeg" width="700"/>
+
+---
+
+## 4. Sample Input / Output
+
+Example ranking output:
+
+| Alternative | Topsis Score | Rank |
+|------------|-------------|------|
+| A1 | 0.534277 | 2 |
+| A2 | 0.308368 | 3 |
+| A3 | 0.691632 | 1 |
+
+---
+
+## 5. Local Setup
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
